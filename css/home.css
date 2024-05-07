@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.menu_block {
+    width: 1005px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menu a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.lest_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    width: 1000px;
+    height: 65px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 4px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box h2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.box a {
+    color: rgb(11, 105, 176);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.box a:hover {
+    text-decoration: underline;
+}
+.box_ {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.box_ span {
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.name_mark {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1110px;
+    align-items: center;
+}
+.buy span{
+    color: brown;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.buy h1{
+    font-size: 50px;
+    margin: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.buy p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mid_ {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin: 50px 30px 0;
+    gap: 20px;
+}
+
+.stiky_ {
+    position: sticky;
+    top: 50px;
+    left: 0;
+}
+
+.transition_pho {
+    position: relative;
+}
+
+.transition_pho img {
+    border-radius: 20px;
+}
+
+.midBut {
+    padding: 11px 12px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    bottom: 40%;
+    background-color: rgb(224, 223, 223);
+}
+.midBut_ {
+    padding: 11px 13px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    bottom: 40%;
+    background-color: rgb(224, 223, 223);
+}
+.transition_pho button:active {
+    background-color: gray;
+    transition: .5s ease;
+}
+
+.per_one {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+
+}
+.per_one_ {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(173, 171, 171);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+    /* display: none; */
+}
+
+.pust {
+    display: none;
+}
+
+.per_two {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(173, 171, 171);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 30px;
+    right: 48%;
+}
+.per_two_ {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 30px;
+    right: 48%;
+}
+
+.transition_pho {
+    width: 720px;
+}
+
+.right_serch {
+    margin-top: 70px;
+    height: 200vh;
+}
+.right_serch h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.right_serch span {
+    color: rgb(154, 153, 153);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.right_serch a {
+    display: flex; 
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    border: 1px solid #b6b6b6;
+    padding: 20px 15px;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.left {
+    text-align: left;
+}
+
+.left h3 {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.left p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.right {
+    text-align: right;
+}
+.right p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.a_three {
+    background-color: rgb(249, 247, 247);
+    border: 0;
+    position: relative;
+}
+
+.left_ h2 {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.left_ p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.right_serch h1 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-top: 50px;
+}
+.p_ {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.color {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #5b5b5b;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
+.black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px 0px #000000;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
+.blue {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #3a37fb;
+    box-shadow: 0px 0px 10px 0px #3a37fb;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
+.gold {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #f9f463;
+    box-shadow: 0px 0px 10px 0px #f9f463;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
