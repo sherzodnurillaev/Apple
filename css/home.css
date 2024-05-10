@@ -150,6 +150,7 @@ img {
     right: 50px;
     bottom: 40%;
     background-color: rgb(224, 223, 223);
+    
 }
 .midBut_ {
     padding: 11px 13px;
@@ -164,6 +165,21 @@ img {
 .transition_pho button:active {
     background-color: gray;
     transition: .5s ease;
+}
+
+.exe {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.exe:active {
+    scale: 1.05;
 }
 
 .per_one {
@@ -334,8 +350,8 @@ img {
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    background-color: #3a37fb;
-    box-shadow: 0px 0px 10px 0px #3a37fb;
+    background-color: #04026c;
+    box-shadow: 0px 0px 10px 0px #8a88ff;
     cursor: pointer;
     /* border: 1px solid #000; */
 }
@@ -343,7 +359,7 @@ img {
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    background-color: #f9f463;
+    background-color: #978845;
     box-shadow: 0px 0px 10px 0px #f9f463;
     cursor: pointer;
     /* border: 1px solid #000; */
