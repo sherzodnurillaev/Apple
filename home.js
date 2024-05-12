@@ -3,14 +3,11 @@ const img = document.querySelector('.transition_pho img')
 const links = document.querySelectorAll('.transition_pho button')
 const pers = document.querySelectorAll('.transition_pho div')
 const exe = document.querySelector('.exe')
-const di = document.querySelector('.box a')
-const mo = document.querySelector('.modal')
-const ov = document.querySelector('.overline')
-const im = document.querySelector('.header img')
-const mids = document.querySelectorAll('.mid_lon')
-const mides = document.querySelectorAll('.miden')
-const men = document.querySelector('.men')
-const mens = document.querySelector('.men span')
+const over = document.querySelector('.overline')
+
+const openModal = document.querySelector('.open')
+const modal = document.querySelector('.modal')
+const closeModal = document.querySelector('.closeModal')
 
 const iphones = {
     white: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-whitetitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZE9GbVRLdFoyOVBmczRNaU91Q1BaNWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemN5bURtdG84aElEZERZa0lIV3FCN1lBPT0=&traceId=1',
@@ -50,30 +47,11 @@ exe.onclick = () => {
     exe.style.display = 'none'
 }
 
-di.onclick = () => {
-    mo.style.display = 'block'
-    ov.style.display = 'block'
+openModal.onclick = () => {
+    modal.showModal()
+    over.style.display = 'block'
 }
-im.onclick = () => {
-    mo.style.display = 'none'
-    ov.style.display = 'none'
+closeModal.onclick = () => {
+    modal.close()
+    over.style.display = 'none'
 }
-
-mids.forEach(mid => {
-    mid.onclick = () => {
-    mides.forEach(mide => {
-            mide.style.height = '100%'
-        })
-    }
-})
-mids.forEach(mid => {
-    mid.ondblclick = () => {
-    mides.forEach(mide => {
-            mide.style.height = '0'
-        })
-    }
-})
-
-// men.onclick = () => {
-//     mens.innerHTML = 'frfr'
-// }

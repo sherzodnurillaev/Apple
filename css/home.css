@@ -372,7 +372,6 @@ img {
     left: 22%;
     z-index: 1000;
     border-radius: 20px;
-    display: none;
     border: 0px solid #000;
     box-shadow: 0 0 10px 0 white;
 }
@@ -511,7 +510,7 @@ img {
 .overline {
     display: none;
     position: fixed;
-    z-index: 1; /* Помещаем затемненный фон ниже, чем модальное окно */
+    z-index: 1; /*Помещаем затемненный фон ниже, чем модальное окно */
     left: 0;
     top: 0;
     width: 100%;
