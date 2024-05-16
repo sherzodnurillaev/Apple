@@ -374,6 +374,21 @@ img {
     border-radius: 20px;
     border: 0px solid #000;
     box-shadow: 0 0 10px 0 white;
+
+    animation: fade .5s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        scale: .1;
+        box-shadow: 0 0 70px 0 white;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        box-shadow: 0 0 20px 0 white;
+    }
 }
 
 .header {
@@ -526,7 +541,8 @@ img {
     width: 300px;
 }
 
-.miden {
+.accardion {
+    height: 65px;
     overflow: hidden;
-    height: 0;
+    cursor: pointer;
 }
